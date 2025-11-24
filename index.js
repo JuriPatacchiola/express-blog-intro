@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3001;
 
 app.use(express.static('public'));
 
@@ -50,3 +50,8 @@ app.get('/bacheca', (req, res) => {
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
+
+
+
+// link se nel caso si vuole vedere un immagine specifica http://localhost:3000/images/ciambellone.jpeg
+// link per vedere la bachehca http://localhost:3001/bacheca
