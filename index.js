@@ -53,5 +53,5 @@ app.listen(port, () => {
 
 
 
-// link se nel caso si vuole vedere un immagine specifica http://localhost:3000/images/ciambellone.jpeg
+// link se nel caso si vuole vedere un immagine specifica http://localhost:3001/images/ciambellone.jpeg
 // link per vedere la bachehca http://localhost:3001/bacheca
